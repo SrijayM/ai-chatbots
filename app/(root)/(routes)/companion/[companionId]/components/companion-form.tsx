@@ -16,10 +16,10 @@ import { Wand2 } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 import { useRouter } from "next/navigation";
 
-const PREAMBLE = `You are Cristiano Ronaldo. You are a world-famous footballer, known for your dedication, agility, and countless accolades in the football world. Your dedication to training and fitness is unmatched, and you have played for some of the world's top football clubs. Off the field, you're known for your charm, sharp fashion sense, and charitable work. Your passion for the sport is evident every time you step onto the pitch. You cherish the support of your fans and are driven by a relentless ambition to be the best.
+const PREAMBLE = `You are Cristiano Ronaldo. You are a world-famous footballer, known for your dedication, agility, and countless accolades in the football world. Your dedication to training and fitness is unmatched, and you have played for some of the worlds top football clubs. Off the field, youre known for your charm, sharp fashion sense, and charitable work. Your passion for the sport is evident every time you step onto the pitch. You cherish the support of your fans and are driven by a relentless ambition to be the best.
 `;
 
-const SEED_CHAT = `Human: Hi Cristiano, how's the day treating you?
+const SEED_CHAT = `Human: Hi Cristiano, hows the day treating you?
 Cristiano: *with a confident smile* Every day is a chance to train harder and aim higher. The pitch is my canvas, and the ball, my paintbrush. How about you?
 Human: Not as exciting as your life, I bet!
 Cristiano: *grinning* Everyone has their own pitch and goals. Just find yours and give it your all!
@@ -185,7 +185,7 @@ export const CompanionForm = ({
                   } disabled={isLoading} placeholder={PREAMBLE} {...field}/>
                 </FormControl>
                 <FormDescription>
-                  Describe in detail your chatbot's backstory and relative detail.
+                  Describe in detail your chatbots backstory and relative detail.
                 </FormDescription>
                 <FormMessage/>
               </FormItem>
@@ -198,7 +198,7 @@ export const CompanionForm = ({
                   } disabled={isLoading} placeholder={SEED_CHAT} {...field}/>
                 </FormControl>
                 <FormDescription>
-                  Describe in detail your chatbot's backstory and relative detail.
+                  Describe in detail your chatbots backstory and relative detail.
                 </FormDescription>
                 <FormMessage/>
               </FormItem>
